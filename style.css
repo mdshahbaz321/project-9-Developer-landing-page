@@ -1,0 +1,315 @@
+/* POPPINS FONT FAMILY */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+body{
+  background-color: #F8F8FA;
+}
+header{
+  width: 100%;
+  height: 45vh;
+  background-color: #4617FE;
+  display: flex;
+  justify-content: space-between;
+  
+}
+.logo_code{
+  flex-direction: column;
+
+}
+.logo{
+  margin: 1.5rem;
+  margin-top: 1.9rem;
+}
+.header-text{
+  color: #ffffff;
+  font-size: 1rem;
+  margin: 1rem;
+  margin-left: 2rem;
+
+
+}
+.ul_txt{
+  color: #ffffff;
+  margin-top: 2rem;
+}
+.nav-item{
+  margin-right: 1rem;
+  font-size: 1.2rem;
+}
+.nav-item:hover{
+  border: 0;
+  border-bottom: 3px solid #ffffff;
+  font-size: 1.2rem ;
+  cursor: pointer;
+}
+.nav-item-active{
+  color: #4617FE;
+  margin-right: 1rem;
+  font-size: 1.2rem;
+  width: 20rem;
+  height: 5rem;
+  border: none;
+  padding: 10px;
+  border-radius: 0.5rem;
+  background-color: #ffffff;
+}
+.nav-item-search{
+    font-size: 2rem;
+    cursor: pointer;
+}
+.nav-item-active:hover{
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+.header-image{
+  width: 33rem;
+  height: 50vh;
+  position: relative;
+  right: 0;
+}
+.companies{
+  margin-left: 3rem;
+  margin-top: 1rem;
+}
+.company-items{
+  text-decoration: none;
+  font-size: 1.2rem;
+  margin-right: 1rem;
+  font-weight: 900;
+  color: #000;
+}
+.api{
+  margin-top: 8rem;
+  margin-left: 2.5rem;
+  display: flex;
+  flex-direction: column;
+}
+.api-heading{
+  margin-bottom: 15px;
+}
+.cards{
+  display: flex;
+  justify-content: space-between;
+}
+.card-active:hover{
+  background-color: #F8F8FA;
+  box-shadow: 5px 10px #ccc;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  padding: 15px;
+  cursor: pointer;
+}
+ /* start blog codin */
+ .blog-heading{
+  margin-top: 6rem;
+  margin-left:2rem ;
+  margin-bottom: 2rem;
+ }
+ .blog-cards{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10vh;
+  height: 50vh;
+
+ }
+ .blogimg-one{
+  width: 15rem;
+  height: 20rem;
+ }
+ .blog-card{
+  font-size: 1rem;
+  margin-right: 5rem;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 30rem;
+  height: 20rem;
+  border-right: #ccc solid 3px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  cursor: pointer;
+ }
+ .contenttxt-two{
+  display: flex;
+  flex-direction: column;
+ }
+  /* start faq coding */
+
+  .faq-section{
+    display: flex;
+    justify-content: space-between;
+    background-color: #E9EDFF;
+    margin-bottom: 5rem;
+
+    border:#ccc 1px solid;
+  }
+  .faq-content{
+    margin-left: 2rem;
+  }
+  .do-want{
+    font-size: 20px;
+    font-weight: 600;
+  }
+ .contact-btn{
+  background-color:#5A31FC ;
+  width: 150px;
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 300;
+ }
+ .contact-btn:hover{
+  width: 155px;
+  font-size: 19px;
+  cursor: pointer;
+ }
+
+ /* start download coding */
+ .download-section{
+  display: flex;
+  justify-content: space-between;
+  margin:0 2rem;
+ }
+ .email_input{
+  width: 22rem;
+  height: 2.1rem;
+  border: 2px solid #ccc;
+  border-right: 0;
+  border-radius: 20px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  text-align: center;
+ }
+ .download-btn{
+  width: 8rem;
+  height: 2rem;
+  border-radius: 20px;
+  background-color: #5A31FC;
+  border: 2px solid #ccc;
+  position: relative;
+  left:-2.5rem;
+  cursor: pointer;
+ }
+ /* start footer */
+ .footer-section{
+    display: flex;
+    justify-content: space-between;
+    background-color: #3C0AFE;
+    list-style-type: none;
+    padding: 2rem;
+    height: 30vh;
+ }
+ .list{
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-top: 2rem;
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-weight: 400;
+ }
+ .list-items{
+  margin-right: 1rem;
+
+ }
+ .list-items:hover{
+  border-bottom: 2px solid #ffffff;
+  font-size: 1.6rem;
+  cursor: pointer;
+ }
+ .logos-list{
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-top: 2rem;
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-weight: 400;
+ }
+ .footer-logos{
+    margin-right: 1rem;
+    cursor: pointer;
+ }
+ .developer{
+  display: flex;
+  flex-direction: column-reverse;
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  color: #ffffff;
+  font-size: 10px;
+ }
+ /* responsive coding start here! */
+ @media screen and (max-width:900px){
+  html{
+    font-size: 70%;
+  }
+  .download-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin:0 2rem;
+   }
+   /* .footer-section{
+    display: flex;
+    justify-content: space-between;
+    background-color: #3C0AFE;
+    list-style-type: none;
+    padding: 2rem;
+    height: 30vh;
+ } */
+ 
+}
+
+
+ @media screen and (max-width:500px){
+  html{
+    font-size:50% ;
+  }
+  .download-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin:0 2rem;
+ }
+ .blogimg-one{
+  width: 10rem;
+  height: 20rem;
+ }
+}
+@media screen and (max-width:380px){
+  html{
+    font-size:38% ;
+  }
+  .download-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin:0 2rem;
+ }
+ .blogimg-one{
+  width: 10rem;
+  height: 20rem;
+ }
+ .footer-section{
+  flex-direction: column;
+  width: 100%;
+  height: 40vh;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+
+ }
+}
